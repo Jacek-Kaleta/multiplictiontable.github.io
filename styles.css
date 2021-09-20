@@ -1,0 +1,158 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+body {
+    background: linear-gradient(45deg, orange, darkorange);
+    font-family: "Open Sans", sans-serif;
+    padding: 5px 25px;
+    font-size: 18px;
+    margin: 0;
+}
+
+x:hover {
+    border: 1px solid red;
+}
+
+main {
+    display: table;
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    width: 798px;
+    transform: translateX(-50%)
+}
+
+.tablica {
+    position: absolute;
+    background: linear-gradient(15deg, #040404, #707070);
+    border: 14px solid white;
+    top: 0;
+    width: 798px;
+    height: 400px;
+}
+
+.pozcenter {
+    position: relative;
+    width: 100%;
+    height: 0px;
+    top: 50%;
+    left: 45%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.text {
+    position: relative;
+    font-size: 128px;
+    line-height: 0px;
+    color: white;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    top: -132px;
+}
+
+top-left {
+    color: yellow;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+top-right {
+    color: yellow;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+bottom-right {
+    color: yellow;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+bottom-left {
+    position: absolute;
+    color: yellow;
+    left: 0px;
+    bottom: 0px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+top-center {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    color: white;
+    transform: translateX(-50%)
+}
+
+.container {
+    position: absolute;
+    top: 500px;
+    background: linear-gradient(15deg, #c4c4c4, #707070);
+    border: 14px solid white;
+    width: 798px;
+    height: 800px;
+    display: block;
+}
+
+.container:before {
+    content: " ";
+    display: table;
+}
+
+.formContainer:after {
+    clear: both;
+}
+
+form {
+    width: 100%;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+input[type="button"],
+#equal {
+    width: 266px;
+    height: 200px;
+    display: block;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    background-color: #eee;
+    border: 0;
+    border-bottom: 1px solid #bbb;
+}
+
+input[type="button"]:hover,
+#equal:hover {
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+input[type="button"]:active,
+#equal:active {
+    cursor: pointer;
+    background-color: #bbb;
+}
+
+input:focus {
+    box-shadow: 0;
+    outline: 0;
+    background-color: #eee;
+}
